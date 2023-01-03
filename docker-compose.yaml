@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  pucknorris:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - 3010:3000
+    volumes:
+      - .:/alissariker
